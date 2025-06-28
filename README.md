@@ -1,7 +1,7 @@
 ##  👋
 > [SYSTEM] `Authenticating user...` \
 > [bob@slack] `Access Granted. Welcome, Bojan Vasic.` \
-> [bob@slack] `Rendering profile...` \
+> [bob@slack] `Rendering profile...` 
 ---
 
 ### **`>` Digital Technology Specialist | IBM/Google Cybersecurity Analyst | WebApp Developer | OSINT | (ISC)² CC | Cisco EH | ISACA Member | Web3 & AI Researcher**
