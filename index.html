@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bojan Vasic</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Animated Gradient Background */
+        .gradient-bg {
+            background: linear-gradient(-45deg, #1f2937, #111827, #374151, #4b5563);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* Content Fade-in Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Staggered animation delays */
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        
+        /* Icon styling */
+        .social-icon {
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+            color: #34d399; /* Emerald-400 for a nice highlight */
+        }
+    </style>
+</head>
+<body class="gradient-bg text-gray-300">
+
+    <div class="flex items-center justify-center h-screen">
+        <div class="text-center p-6">
+            
+            <!-- Main Info -->
+            <div class="fade-in">
+                <h1 class="text-5xl md:text-7xl font-bold text-white tracking-tight">Bojan Vasic</h1>
+                <p class="text-lg md:text-xl text-gray-400 mt-3">Cybersecurity & Digital Innovation</p>
+            </div>
+            
+            <!-- Social Icons -->
+            <nav class="flex justify-center gap-6 md:gap-8 mt-12 fade-in delay-2">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/bobvasic/" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-400" aria-label="LinkedIn">
+                    <svg class="w-7 h-7" role="img" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </a>
+                
+                <!-- X (Twitter) -->
+                <a href="https://x.com/S0LMINT" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-400" aria-label="X">
+                    <svg class="w-7 h-7" role="img" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                
+                <!-- GoFundMe -->
+                <a href="https://www.gofundme.com/f/solmint/" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-400" aria-label="GoFundMe">
+                     <svg class="w-7 h-7" role="img" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm2.353 18.913a.47.47 0 0 1-.41.235H8.01a.47.47 0 0 1-.41-.235.46.46 0 0 1 .035-.48l4.038-5.383-1.89-2.52a.465.465 0 0 1 .374-.728h4.04a.465.465 0 0 1 .374.728l-1.89 2.52 4.039 5.383a.46.46 0 0 1 .034.48zM10.12 7.734a.465.465 0 0 1-.374-.728h4.41a.465.465 0 1 1 0 .93H10.5a.465.465 0 0 1-.38-.202z"/></svg>
+                </a>
+
+                <!-- BojanVasic.link -->
+                <a href="https://bojanvasic.link" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-400" aria-label="BojanVasic.link">
+                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                </a>
+
+                <!-- Boblink.eu -->
+                <a href="https://boblink.eu/" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-400" aria-label="Boblink.eu">
+                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m-9 9c0-4.97 4.03-9 9-9h.5"></path></svg>
+                </a>
+
+                <!-- Cyberlinksec.com -->
+                <a href="https://cyberlinksec.com/" target="_blank" rel="noopener noreferrer" class="social-icon text-gray-400" aria-label="Cyberlinksec.com">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                </a>
+            </nav>
+
+        </div>
+    </div>
+</body>
+</html>
+
