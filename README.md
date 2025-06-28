@@ -1,7 +1,7 @@
 ##  👋
-> [SYSTEM] `Authenticating user...` 
-> [SYSTEM] `Access Granted. Welcome, Bojan Vasic.` 
-> [SYSTEM] `Rendering profile...` 
+> [SYSTEM] `Authenticating user...` \
+> [bob@slack] `Access Granted. Welcome, Bojan Vasic.` \
+> [bob@slack] `Rendering profile...` \
 ---
 
 ### **`>` Digital Technology Specialist | IBM/Google Cybersecurity Analyst | WebApp Developer | OSINT | (ISC)² CC | Cisco EH | ISACA Member | Web3 & AI Researcher**
@@ -40,4 +40,4 @@
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bobvasic&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/bobvasic)
 
 ---
-> [SYSTEM] Render Complete. Connection Secure.
+> [bob@@slack] Render Complete. Connection Secure.
