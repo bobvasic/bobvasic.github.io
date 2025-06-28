@@ -1,18 +1,7 @@
 ##  👋
 > [SYSTEM] Authenticating user...
-> [SYSTEM] Access Granted. Welcome, Bojan Vasic.
-> [SYSTEM] Rendering profile...
-
-
-██████╗ ██████╗ ██╗██╗   ██╗ █████╗ ███╗   ██╗      ██╗   ██╗ █████╗ ███████╗██╗ ██████╗
-██╔═══██╗██╔══██╗██║██║   ██║██╔══██╗████╗  ██║      ██║   ██║██╔══██╗██╔════╝██║██╔════╝
-██║   ██║██████╔╝██║██║   ██║███████║██╔██╗ ██║      ██║   ██║███████║███████╗██║██║
-
-██║   ██║██╔══██╗██║╚██╗ ██╔╝██╔══██║██║╚██╗██║      ╚██╗ ██╔╝██╔══██║╚════██║██║██║
-
-╚██████╔╝██║  ██║██║ ╚████╔╝ ██║  ██║██║ ╚████║       ╚████╔╝ ██║  ██║███████║██║╚██████╗
-╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝        ╚═══╝  ╚═╝  ╚═╝╚══════╝╚═╝ ╚═════╝
-
+> [bob@SYSTEM] Access Granted. Welcome, Bojan Vasic.
+> [bob@SYSTEM] Rendering profile...
 
 ---
 
@@ -32,14 +21,14 @@
 
 ### `> ` **Compiling Tech Stack... Core Arsenal:**
 
-![CyberSecurity](https://img.shields.io/badge/CyberSecurity-0078D4?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+[![CyberSecurity](https://img.shields.io/badge/CyberSecurity-0078D4?style=for-the-badge)]
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)]
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)]
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)]
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)]
+[![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)]
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]
 
 ---
 
